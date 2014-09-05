@@ -75,6 +75,7 @@ blogdescription = raw_input('Enter blog description: ')
 admin_email = raw_input('Enter admin e-mail: ')
 
 print "[INFO] Connecting to MySQL and creating and configuring database..."
+print "Enter your MySQL password the line below again."
 if not database_password:
 	os.system('echo "create database ' + database_name + '" | mysql -u ' + database_username)
 else:
