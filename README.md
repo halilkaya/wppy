@@ -19,7 +19,7 @@ Installation
 
 1. Clone this repository or download a zip.
 2. Run wppy-installer.py as root privileges:
-    $ sudo python wppy-installer.py
+    ```$ sudo python wppy-installer.py```
 3. That's all!
 
 
@@ -28,10 +28,10 @@ Usage
 ====
 
 1. Go to the directory that you want to install Wordpress. Ex:
-    $ cd /var/www/
+    ```$ cd /var/www/```
    (PS: You don't need to create a directory. wppy will do it for you)
 2. Just run wppy with --name parameter. This parameter will be your folder name.
-    $ wppy -n myblog
+    ```$ wppy -n myblog```
 
 
 
