@@ -18,7 +18,7 @@ Installation
 ====
 
 1. Clone this repository or download a zip.
-2. Run wppy-installer.py as root privileges:<br>
+2. Run wppy-installer.py with root privileges:<br>
     ```$ sudo python wppy-installer.py```
 3. That's all!
 
@@ -32,6 +32,7 @@ Usage
    (PS: You don't need to create a directory. wppy will do it for you)
 2. Just run wppy with --name parameter. This parameter will be your folder name.<br>
     ```$ wppy -n myblog```
+3. Your Wordpress is ready on ex. ```http://localhost/myblog```
 
 
 
