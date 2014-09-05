@@ -18,7 +18,7 @@ Installation
 ====
 
 1. Clone this repository or download a zip.
-2. Run wppy-installer.py as root privileges:
+2. Run wppy-installer.py as root privileges:\n
     ```$ sudo python wppy-installer.py```
 3. That's all!
 
@@ -27,10 +27,10 @@ Installation
 Usage
 ====
 
-1. Go to the directory that you want to install Wordpress. Ex:
+1. Go to the directory that you want to install Wordpress. Ex:\n
     ```$ cd /var/www/```
    (PS: You don't need to create a directory. wppy will do it for you)
-2. Just run wppy with --name parameter. This parameter will be your folder name.
+2. Just run wppy with --name parameter. This parameter will be your folder name.\n
     ```$ wppy -n myblog```
 
 
