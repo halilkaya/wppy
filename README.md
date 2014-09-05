@@ -1,7 +1,7 @@
 wppy
 ====
 
-wppy is a tool to get the latest version of Wordpress and install it in one-line command.
+wppy is a tool to get the latest version of Wordpress and install and configure it for you in one-line command.
 
 
 
@@ -11,6 +11,9 @@ Requirements
 PHP (>=5.0)<br>
 MySQL<br>
 Python
+curl
+
+Runs on only Linux for now.
 
 
 
