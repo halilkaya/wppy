@@ -63,13 +63,26 @@ if not database_host:
 
 os.system('vi -c "%s/localhost/' + database_host + '/g|wq" ' + options.folder_name + '/wp-config.php')
 
-print "[INFO] Configurated database successfully!"
+print "[INFO] Configurated database config file successfully!"
 
-print "[INFO] Connecting to MySQL and creating database..."
+print
+siteurl = 'http://' + site_url
+home = siteurl
+user_name = raw_input('Enter a username for admin panel: ')
+password = raw_input('Enter a password for admin panel: ')
+weblog_title = raw_input('Enter site title: ')
+blogdescription = raw_input('Enter blog description: ')
+admin_email = raw_input('Enter admin e-mail: ')
+
+print "[INFO] Connecting to MySQL and creating and configuring database..."
 if not database_password:
 	os.system('echo "create database ' + database_name + '" | mysql -u ' + database_username)
 else:
 	os.system('echo "create database ' + database_name + '" | mysql -u ' + database_username + ' -p')
 
+os.system('curl --data "weblog_title=' + weblog_title + '&user_name=' + user_name + '&admin_password=' + password + '&admin_password2=' + password + '&admin_email=' + admin_email + '&blog_public=1&language=" ' + home + '/' + options.folder_name + '/wp-admin/install.php?step=2 -o "curl_output.txt"')
+
+os.system('mv curl_output.txt ' + options.folder_name + '/')
+
 print
-print "[INFO] Last one more step! Just go to http://" + site_url + "/" + options.folder_name + " and get your Wordpress blog ready!"
+print "[INFO] Your blog is ready! Just go to http://" + site_url + "/" + options.folder_name
