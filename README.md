@@ -1,7 +1,7 @@
 wppy
 ====
 
-wppy is a tool to get the latest version of Wordpress and install it.
+wppy is a tool to get the latest version of Wordpress and install it in one-line command.
 
 
 
