@@ -33,7 +33,7 @@ os.system('mv wordpress ' + options.folder_name)
 print "[INFO] Deleting latest.zip file"
 os.system('rm latest.zip')
 
-print "[INFO] Changing wp-config-sample.php tp wp-config,php"
+print "[INFO] Copying wp-config-sample.php as wp-config.php"
 os.system('cp ' + options.folder_name + '/wp-config-sample.php ' + options.folder_name + '/wp-config.php')
 
 print
