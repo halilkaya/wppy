@@ -63,7 +63,7 @@ if not database_host:
 
 os.system('vi -c "%s/localhost/' + database_host + '/g|wq" ' + options.folder_name + '/wp-config.php')
 
-print "[INFO] Configurated database config file successfully!"
+print "[INFO] Configured database config file successfully!"
 
 print
 siteurl = 'http://' + site_url
