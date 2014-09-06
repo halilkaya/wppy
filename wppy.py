@@ -27,7 +27,7 @@ os.system('wget -c http://wordpress.org/latest.zip')
 print "[INFO] Extracting compressed file"
 os.system('unzip latest.zip')
 
-print "[INFO] Folder creating as " + options.folder_name
+print "[INFO] Folder renaming as " + options.folder_name
 os.system('mv wordpress ' + options.folder_name)
 
 print "[INFO] Deleting latest.zip file"
