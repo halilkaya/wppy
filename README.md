@@ -18,7 +18,7 @@ Runs on only Linux for now.
 
 
 Installation
-====
+----
 
 1. Clone this repository or download a zip.
 2. Run wppy-installer.py with root privileges:<br>
@@ -28,7 +28,7 @@ Installation
 
 
 Usage
-====
+----
 
 1. Go to the directory that you want to install Wordpress. Ex:<br>
     ```$ cd /var/www/```<br>
@@ -40,7 +40,7 @@ Usage
 
 
 Contact
-====
+----
 
 Please notice me if you have bugs or recommendation:<br>
 kayahalil@gmail.com - GPG: 0x0FA83C53
