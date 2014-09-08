@@ -6,7 +6,7 @@ wppy is a tool to get the latest version of Wordpress and install and configure 
 
 
 Requirements
-====
+----
 
 PHP (>=5.0)<br>
 MySQL<br>
