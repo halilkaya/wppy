@@ -13,7 +13,7 @@ MySQL<br>
 Python<br>
 curl
 
-Runs on only Linux for now.
+Runs on only Linux.
 
 
 
