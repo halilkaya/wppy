@@ -3,9 +3,9 @@
 
 #
 #	Halil Kaya
-#	   - www.halilkaya.net
-#	   - kayahalil@gmail.com
-#	   - GPG: 0x0FA83C53
+#	   www.halilkaya.net
+#	   kayahalil@gmail.com
+#	   GPG: 0x0FA83C53
 #
 #	wppy is licensed with GPL
 #
