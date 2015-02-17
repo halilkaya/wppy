@@ -42,5 +42,5 @@ Usage
 Contact
 ----
 
-Please notice me if you have bugs or recommendation:<br>
+Please notify me if you have bugs or recommendation:<br>
 kayahalil@gmail.com - GPG: 0x0FA83C53
