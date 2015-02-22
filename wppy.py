@@ -12,6 +12,7 @@
 
 import sys, os
 from optparse import OptionParser
+from random import randint
 
 parser = OptionParser()
 parser.add_option('-n', '--name', dest="folder_name", help="Wordpress folder name", action="store")
@@ -25,13 +26,15 @@ print "[INFO] Cloning the latest version of Wordpress"
 os.system('wget -c http://wordpress.org/latest.zip')
 
 print "[INFO] Extracting compressed file"
-os.system('unzip latest.zip')
+rndmfolder = 'wordpress' + str(randint(0,99));
+os.system('unzip latest.zip -d ' + rndmfolder)
 
 print "[INFO] Folder renaming as " + options.folder_name
-os.system('mv wordpress ' + options.folder_name)
+os.system('mv '+rndmfolder+'/wordpress ' + options.folder_name)
 
-print "[INFO] Deleting latest.zip file"
+print "[INFO] Deleting latest.zip file and temporary wordpress directory"
 os.system('rm latest.zip')
+os.system('rm -r ' + rndmfolder)
 
 print "[INFO] Copying wp-config-sample.php as wp-config.php"
 os.system('cp ' + options.folder_name + '/wp-config-sample.php ' + options.folder_name + '/wp-config.php')
