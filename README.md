@@ -10,7 +10,7 @@ Requirements
 
 PHP (>=5.0)<br>
 MySQL<br>
-Python<br>
+Python 2 or 3<br>
 curl
 
 Runs on only Linux.
