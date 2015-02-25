@@ -4,6 +4,8 @@ wppy
 wppy is a tool to get the latest version of Wordpress and install and configure it for you in one-line command.
 
 
+//emre
+PULL REQUEST ICIN DEGISIKLIK
 
 Requirements
 ----
