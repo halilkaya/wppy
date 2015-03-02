@@ -13,7 +13,10 @@
 import sys, os
 from optparse import OptionParser
 from random import randint
-from builtins import input  # Support for Python 2 & 3
+try:
+	input = raw_input  # Python 2
+except NameError:  # Python 3
+	pass
 
 if __name__ != '__main__':
 	print("Not a module!!!")
